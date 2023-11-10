@@ -1,0 +1,15 @@
+naming conventions
+1) small letter for private and local variables
+2) capital letters for:
+  constants
+  public fields	:upper case	Width, BufferLength
+	properties	:upper case	Length, FullName
+	enumeration :constants	upper case	Red, Blue
+	methods	:upper case	Add, IndexOf
+	types:	upper case	StringBuilder (predefined types in lower case: int, string)
+	namespaces:	upper case	System, Collections
+
+First word
+Names of void methods should start with a verb (e.g. GetHashCode)
+Other names should start with a noun (e.g. size, IndexOf, Collections)
+Enumeration constants or bool members may start with an adjective (Red, Empty)
